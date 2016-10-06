@@ -1,0 +1,4 @@
+[07-Apr-2012 02:12:48] PHP Warning:  POST Content-Length of 437915755 bytes exceeds the limit of 134217728 bytes in Unknown on line 0
+[08-Apr-2012 23:56:44] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/lnlodder/public_html/admin/sermons/sermons.php on line 64
+[31-Jul-2012 05:01:15 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/lnlodder/public_html/admin/sermons/magic.php on line 2
+[31-Jul-2012 05:01:47 UTC] PHP Parse error:  syntax error, unexpected T_ECHO in /home/lnlodder/public_html/admin/sermons/magic.php on line 2

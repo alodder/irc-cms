@@ -1,0 +1,247 @@
+body { 
+	font-family: helvetica, Arial, sans-serif;
+	font-size:16px;
+	color:#3f3f3f;
+	margin:0;
+	padding:0;
+}
+
+a {
+	color:#327ebe;
+	text-decoration:none;
+}
+
+h1.title {
+	text-shadow: 1px 1px #333;
+}
+
+#container {}
+
+#sessionMessage {
+	padding:0 1em;
+	background:#C00;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#toolbar {
+	margin:0;
+	color:#fff;
+	background:#444 url(../images/toolbar2.png) repeat-x;
+	background-position:bottom;
+	padding:0;
+	width:100%;
+}
+#toolbar h1{
+	font-size: 1em;
+	margin:.5em;
+	display:inline-block;
+}
+#toolbar ul{
+	display:inline-block;
+	margin:0;
+	margin-left:1em;
+	margin-right:1em;
+	padding:0;
+}
+#toolbar li{
+	display:inline-block;
+	background-color:#666;
+	padding:.8em;
+	margin:0;
+	margin-top:.5em;
+}
+#toolbar li.current{ background-color:#fff;}
+#toolbar li.current a{ color:#444;}
+#toolbar a {
+	color:#ccc; 
+	text-decoration:none; 
+	font-weight:bold; 
+	font-size:.8em;
+}
+#toolbar #sessionManageControl{
+	display:inline-block;
+	min-width:1em;
+	text-align: right;
+}
+#toolbar #sessionManageControl img{
+	vertical-align: bottom;
+}
+#toolbar #sessionManageControl a.sessionKill{
+	background: url('../images/icons/cset/24/delete.png') no-repeat; 
+	background-position:right; 
+	padding:24px;
+}
+
+#sidebar {
+	margin:0;
+	padding:.5em;
+}
+#sidebar form{
+	display:inline-block;
+}
+#sidebar fieldset{
+	border:none;
+}
+#sidebar #subTools{
+	display:inline-block;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#sidebar #subTools li{
+	display:inline-block;
+	padding:0em;
+	margin:0;
+}
+
+#inserter fieldset label {
+	width:10em;
+	display:inline-block;
+}
+
+#updater fieldset {
+	display:inline-block;
+	vertical-align:top;
+	border:none;
+}
+#updater fieldset label {
+	width:8em;
+	display:inline-block;
+}
+#updater fieldset.title {
+	border-right:1px dotted #ccc;
+}
+#updater fieldset.date label {
+	width:6em;
+	display:inline-block;
+}
+
+label.date {
+	background: url('../images/icons/cset/24/calendar.png') no-repeat; 
+	background-position:right;
+}
+label.speaker {
+	background: url('../images/icons/cset/24/user.png') no-repeat; 
+	background-position:right;
+}
+label.download {
+	background: url('../images/icons/cset/24/download.png') no-repeat; 
+	background-position:right;
+}
+
+#uploadForm label {
+	width:6em;
+	display:inline-block;
+}
+#uploadForm label.file {
+	background: url('../images/icons/cset/24/attachment.png') no-repeat; 
+	background-position:right;
+}
+
+#uploadForm label.folder {
+	background: url('../images/icons/cset/24/folder.png') no-repeat; 
+	background-position:right;
+}
+
+.delete {
+	color:#cc0000;
+	border:1px dashed;
+	background-color:#ffcccc;
+}
+
+#updateForm{
+	background-color:#EEEEFF;
+}
+#updateForm fieldset {
+	border:none;
+	display:inline-block;
+	vertical-align:top;
+}
+#updateForm label {
+	display: block;
+	width:10em;
+}
+
+#content {
+	padding:.5em;
+}
+
+.sermonlist .scripTitle{
+	font-weight: bold;
+	text-decoration:none;
+	color:#666666
+}
+/*
+.sermonlist .sermonResult { padding:.5em; border-top:1px solid #efefef; clear:both;}
+.sermonlist .sermonTitle { float:left; margin:.5em; padding:.5em; width:30em; border-right:1px dotted #ccc;}
+.sermonlist .sermonDate { float:left; margin-right:.5em; padding:.5em; width:15em; border-right:1px dotted #ccc;}
+.sermonlist .sermonLinks { margin:.5em; padding:.5em;}
+.sermonlist .sermonLinks img { vertical-align:middle; border:none;}
+.sermonlist .pageLinks { clear:left; text-align:center;}
+*/
+.sermonlist .sermonResult {
+	padding:.5em; 
+	border-top:1px solid #efefef; 
+	/*display:block;*/
+}
+.sermonlist .sermonTitle { 
+	display:inline-block; 
+	vertical-align:top; 
+	padding:.5em; 
+	width:30em; 
+	border-right:1px dotted #ccc;
+}
+.sermonlist .sermonDate { 
+	display:inline-block; 
+	vertical-align:top; 
+	margin-right:.5em; 
+	padding:.5em; 
+	width:12em; 
+	border-right:1px dotted #ccc;
+}
+.sermonlist .sermonLinks { 
+	display:inline-block; 
+	vertical-align:top; 
+	padding:1em;
+}
+.sermonlist .sermonLinks img { 
+	vertical-align:middle; 
+	border:none;
+}
+/*.sermonlist .sermonResult form{
+	display:inline-block; 
+	vertical-align:top; 
+}*/
+.sermonlist .pageLinks { 
+	text-align:center;
+}
+
+.userResult{
+	border-top:1px #efefef solid;
+}
+.userResult dt {
+	display:inline-block;
+	clear:left;
+	font-weight:bold;
+	padding:1em;
+	
+}
+.userResult dd {
+	display:inline-block;
+	border-right:1px #efefef dotted;
+	margin-left:1em;
+	padding:1em;
+}
+
+.actionMessage{
+	background-color:#efefef;
+	display:inline-block; 
+	padding:1em; 
+	border:1px solid #ccc;
+}
+
+.itemmessage { color:#00cc00;}
+
+#footer {  }
+
